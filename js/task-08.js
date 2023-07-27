@@ -1,7 +1,5 @@
 const elements = {
-    form: document.querySelector('.login-form'),
-    email: document.querySelector('.email'),
-    password: document.querySelector('.password')
+    form: document.querySelector('.login-form')
 }
 
 elements.form.addEventListener('submit', handlerForm)
