@@ -9,7 +9,7 @@ console.log(elements.span);
 elements.input.addEventListener('input', handlerChange)
 
 function handlerChange(){
-    if(elements.input.value === ""){
+    if(elements.input.value.trim() === ""){
         elements.span.textContent = "Anonymous"
     }else{
         elements.span.textContent = elements.input.value
