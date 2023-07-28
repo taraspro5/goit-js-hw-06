@@ -5,4 +5,3 @@ const result = li.forEach(category => {
     console.log(`Category: ${category.querySelector('h2').textContent}`)
     console.log(`Elements: ${category.querySelector('ul').childElementCount}`);;
 });
-console.log(result);

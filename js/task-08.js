@@ -10,6 +10,10 @@ function handlerForm(evt){
     if(email.value === '' || password.value === ''){
         return alert("All fields must be filled!")
     }
-    console.log(`Email: ${email.value}, password: ${password.value}`);
+    const obj = {
+        email: email.value,
+        password: password.value
+    }
+    console.log(obj);
     evt.currentTarget.reset();
 }

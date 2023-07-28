@@ -3,6 +3,7 @@ const elements = {
     span: document.querySelector('#text')
 }
 
+elements.span.style.fontSize = `${Number(elements.input.value)}px`
 elements.input.addEventListener('input', handlerChange)
 
 function handlerChange(){
